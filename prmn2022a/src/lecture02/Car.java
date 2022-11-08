@@ -2,6 +2,14 @@ package lecture02;
 
 public class Car {
     int fuel = 0;
+    Tire tires[] ;
+    Engine engine;
+
+    Car(Tire[] tires,Engine engine){
+        this.fuel = 0;
+        this.tires = tires;
+        this.engine = engine;
+    }
 
     void run(){
 
@@ -14,4 +22,7 @@ public class Car {
 
     }
 
+    void startEngine(){
+        engine.start();
+    }
 }
