@@ -28,7 +28,7 @@ public class Exercise6_2_2 {
             System.out.println("プログラムを終了します");
             System.exit(0);
 
-        } catch (Exception e){
+        } catch (IndexOutOfBoundsException e){
 
             System.out.println("ArrayListの範囲外アクセスを確認しました");
             System.out.println("プログラムを終了します");
